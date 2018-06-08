@@ -10,7 +10,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-/* Full page scrolling */
-$(document).ready(function() {
-	$('#fullpage').fullpage();
-});
