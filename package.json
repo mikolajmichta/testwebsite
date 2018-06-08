@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "website shenanigans",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikolajmichta/testwebsite.git"
+  },
+  "author": "MJM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolajmichta/testwebsite/issues"
+  },
+  "homepage": "https://github.com/mikolajmichta/testwebsite#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}
