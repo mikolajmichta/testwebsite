@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/custom.css">
 
+    <!-- Icon and stuff -->
 
+    <link rel="icon" href="assets/img/favicon.ico">
     <title>Karolina's website</title>
 </head>
 
@@ -19,162 +21,178 @@
 
     <!-- Navigation -->
 
-    <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light justify-content-between" role="navigation">
         <div class="container">
-            <a class="navbar-brand" href="#intro">Brand</a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#mainNavBar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse btn-group " id="mainNavBar">
-            <a class="nav-item nav-link btn btn-outline-primary" href="#intro">Intro</a>
-            <a class="nav-item nav-link btn btn-outline-primary" href="#content1">Content 1</a>
-            <a class="nav-item nav-link btn btn-outline-primary" href="#content2">Content 2</a>
-            <a class="nav-item nav-link btn btn-outline-primary" href="#content3">Content 3</a>
-        </div>
+            <div class="container d-inline-flex justify-content-between">
 
+                <a class="navbar-brand" href="#intro">Brand</a>
+
+                <button type="button" class="navbar-toggler " data-toggle="collapse" data-target="#mainNavBar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            </div>
+            <div class="collapse navbar-collapse btn-group pt-2 pt-sm-0" role="group" id="mainNavBar">
+                <a class="nav-item nav-link btn btn-outline-primary" href="#intro">Intro</a>
+                <a class="nav-item nav-link btn btn-outline-primary" href="#content1">Content 1</a>
+                <a class="nav-item nav-link btn btn-outline-primary" href="#content2">Content 2</a>
+                <a class="nav-item nav-link btn btn-outline-primary" href="#content3">Content 3</a>
+            </div>
+
+        </div>
     </nav>
 
+    <img src="/assets/img/corgi-icon-.jpg"  alt="Corgi head" id="corgi-head" role="button" data-toggle="tooltip" data-placement="left" title="Unleash the corgis!">
+
     <!-- Content -->
+    <main>
+        <div class="container fill" id="intro">
+            <div class="row align-items-center">
 
-    <div class="container fill" id="intro">
-        <div class="row align-items-center">
+                <div class="col-md-4 ">
+                    <img src="/assets/img/cat.png" class="img-fluid" alt="Placeholder cat">
+                </div>
 
-            <div class="col-md-4 ">
-                <img src="/assets/img/cat.png" class="img-fluid" alt="Placeholder cat">
+                <div class="col-md-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sapien egestas, ornare sem nec, auctor
+                        purus. Proin mattis neque a ex feugiat rutrum. Nam ut facilisis sem. Suspendisse tincidunt tortor
+                        lorem, eu consectetur nisi blandit eget. Donec facilisis dui nec mi venenatis, ac efficitur orci
+                        molestie. Maecenas ac felis tortor. Praesent ornare vehicula diam a malesuada. Nulla nec pharetra
+                        lectus, a dictum erat. Aliquam tincidunt augue vitae sapien pretium rhoncus. Aenean tincidunt orci
+                        quis urna vestibulum pharetra. Nam placerat leo sit amet urna pharetra, eget hendrerit nisl accumsan.
+                        Sed vulputate posuere sem. Aenean vel ex maximus, hendrerit enim quis, consequat ex.
+                    </p>
+                    <p>
+                        Aliquam quam ligula, sollicitudin eget tellus in, suscipit aliquet libero. In quam metus, lobortis eu scelerisque id, aliquet
+                        eu arcu. Integer tempor suscipit elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        id erat in mi ultrices condimentum maximus non augue. Mauris at elit dignissim, luctus erat vitae,
+                        dictum libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce imperdiet risus
+                        et ipsum tempor molestie. Donec congue sem ut justo pretium commodo. Sed rutrum tellus mauris, vel
+                        accumsan quam gravida nec. Integer rhoncus, turpis in ultricies tempus, arcu nibh scelerisque nulla,
+                        nec tempus nulla purus et nisl. Suspendisse venenatis interdum ligula, tempus vehicula lorem tincidunt
+                        at.
+                    </p>
+                </div>
+
             </div>
-
-            <div class="col-md-8">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sapien egestas, ornare sem nec, auctor
-                    purus. Proin mattis neque a ex feugiat rutrum. Nam ut facilisis sem. Suspendisse tincidunt tortor lorem,
-                    eu consectetur nisi blandit eget. Donec facilisis dui nec mi venenatis, ac efficitur orci molestie. Maecenas
-                    ac felis tortor. Praesent ornare vehicula diam a malesuada. Nulla nec pharetra lectus, a dictum erat.
-                    Aliquam tincidunt augue vitae sapien pretium rhoncus. Aenean tincidunt orci quis urna vestibulum pharetra.
-                    Nam placerat leo sit amet urna pharetra, eget hendrerit nisl accumsan. Sed vulputate posuere sem. Aenean
-                    vel ex maximus, hendrerit enim quis, consequat ex.
-                </p>
-                <p>
-                    Aliquam quam ligula, sollicitudin eget tellus in, suscipit aliquet libero. In quam metus, lobortis eu scelerisque id, aliquet
-                    eu arcu. Integer tempor suscipit elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                    id erat in mi ultrices condimentum maximus non augue. Mauris at elit dignissim, luctus erat vitae, dictum
-                    libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce imperdiet risus et ipsum
-                    tempor molestie. Donec congue sem ut justo pretium commodo. Sed rutrum tellus mauris, vel accumsan quam
-                    gravida nec. Integer rhoncus, turpis in ultricies tempus, arcu nibh scelerisque nulla, nec tempus nulla
-                    purus et nisl. Suspendisse venenatis interdum ligula, tempus vehicula lorem tincidunt at.</p>
-            </div>
-
         </div>
-    </div>
 
-    <hr>
+        <hr>
 
-    <div class="container fill" id="content1">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sapien egestas, ornare sem nec, auctor
-                    purus. Proin mattis neque a ex feugiat rutrum. Nam ut facilisis sem. Suspendisse tincidunt tortor lorem,
-                    eu consectetur nisi blandit eget. Donec facilisis dui nec mi venenatis, ac efficitur orci molestie. Maecenas
-                    ac felis tortor. Praesent ornare vehicula diam a malesuada. Nulla nec pharetra lectus, a dictum erat.
-                    Aliquam tincidunt augue vitae sapien pretium rhoncus. Aenean tincidunt orci quis urna vestibulum pharetra.
-                    Nam placerat leo sit amet urna pharetra, eget hendrerit nisl accumsan. Sed vulputate posuere sem. Aenean
-                    vel ex maximus, hendrerit enim quis, consequat ex.
-                </p>
+        <div class="container fill" id="content1">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sapien egestas, ornare sem nec, auctor
+                        purus. Proin mattis neque a ex feugiat rutrum. Nam ut facilisis sem. Suspendisse tincidunt tortor
+                        lorem, eu consectetur nisi blandit eget. Donec facilisis dui nec mi venenatis, ac efficitur orci
+                        molestie. Maecenas ac felis tortor. Praesent ornare vehicula diam a malesuada. Nulla nec pharetra
+                        lectus, a dictum erat. Aliquam tincidunt augue vitae sapien pretium rhoncus. Aenean tincidunt orci
+                        quis urna vestibulum pharetra. Nam placerat leo sit amet urna pharetra, eget hendrerit nisl accumsan.
+                        Sed vulputate posuere sem. Aenean vel ex maximus, hendrerit enim quis, consequat ex.
+                    </p>
+
+                </div>
+                <div class="col-md-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sapien egestas, ornare sem nec, auctor
+                        purus. Proin mattis neque a ex feugiat rutrum. Nam ut facilisis sem. Suspendisse tincidunt tortor
+                        lorem, eu consectetur nisi blandit eget. Donec facilisis dui nec mi venenatis, ac efficitur orci
+                        molestie. Maecenas ac felis tortor. Praesent ornare vehicula diam a malesuada. Nulla nec pharetra
+                        lectus, a dictum erat. Aliquam tincidunt augue vitae sapien pretium rhoncus. Aenean tincidunt orci
+                        quis urna vestibulum pharetra. Nam placerat leo sit amet urna pharetra, eget hendrerit nisl accumsan.
+                        Sed vulputate posuere sem. Aenean vel ex maximus, hendrerit enim quis, consequat ex.
+                    </p>
+                    <p>
+                        Aliquam quam ligula, sollicitudin eget tellus in, suscipit aliquet libero. In quam metus, lobortis eu scelerisque id, aliquet
+                        eu arcu. Integer tempor suscipit elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        id erat in mi ultrices condimentum maximus non augue. Mauris at elit dignissim, luctus erat vitae,
+                        dictum libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce imperdiet risus
+                        et ipsum tempor molestie. Donec congue sem ut justo pretium commodo. Sed rutrum tellus mauris, vel
+                        accumsan quam gravida nec. Integer rhoncus, turpis in ultricies tempus, arcu nibh scelerisque nulla,
+                        nec tempus nulla purus et nisl. Suspendisse venenatis interdum ligula, tempus vehicula lorem tincidunt
+                        at.
+                    </p>
+                </div>
 
             </div>
-            <div class="col-md-8">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sapien egestas, ornare sem nec, auctor
-                    purus. Proin mattis neque a ex feugiat rutrum. Nam ut facilisis sem. Suspendisse tincidunt tortor lorem,
-                    eu consectetur nisi blandit eget. Donec facilisis dui nec mi venenatis, ac efficitur orci molestie. Maecenas
-                    ac felis tortor. Praesent ornare vehicula diam a malesuada. Nulla nec pharetra lectus, a dictum erat.
-                    Aliquam tincidunt augue vitae sapien pretium rhoncus. Aenean tincidunt orci quis urna vestibulum pharetra.
-                    Nam placerat leo sit amet urna pharetra, eget hendrerit nisl accumsan. Sed vulputate posuere sem. Aenean
-                    vel ex maximus, hendrerit enim quis, consequat ex.
-                </p>
-                <p>
-                    Aliquam quam ligula, sollicitudin eget tellus in, suscipit aliquet libero. In quam metus, lobortis eu scelerisque id, aliquet
-                    eu arcu. Integer tempor suscipit elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                    id erat in mi ultrices condimentum maximus non augue. Mauris at elit dignissim, luctus erat vitae, dictum
-                    libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce imperdiet risus et ipsum
-                    tempor molestie. Donec congue sem ut justo pretium commodo. Sed rutrum tellus mauris, vel accumsan quam
-                    gravida nec. Integer rhoncus, turpis in ultricies tempus, arcu nibh scelerisque nulla, nec tempus nulla
-                    purus et nisl. Suspendisse venenatis interdum ligula, tempus vehicula lorem tincidunt at.</p>
-            </div>
-
         </div>
-    </div>
 
-    <hr>
+        <hr>
 
-    <div class="container fill" id="content2">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sapien egestas, ornare sem nec, auctor
-                    purus. Proin mattis neque a ex feugiat rutrum. Nam ut facilisis sem. Suspendisse tincidunt tortor lorem,
-                    eu consectetur nisi blandit eget. Donec facilisis dui nec mi venenatis, ac efficitur orci molestie. Maecenas
-                    ac felis tortor. Praesent ornare vehicula diam a malesuada. Nulla nec pharetra lectus, a dictum erat.
-                    Aliquam tincidunt augue vitae sapien pretium rhoncus. Aenean tincidunt orci quis urna vestibulum pharetra.
-                    Nam placerat leo sit amet urna pharetra, eget hendrerit nisl accumsan. Sed vulputate posuere sem. Aenean
-                    vel ex maximus, hendrerit enim quis, consequat ex.
-                </p>
+        <div class="container fill" id="content2">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sapien egestas, ornare sem nec, auctor
+                        purus. Proin mattis neque a ex feugiat rutrum. Nam ut facilisis sem. Suspendisse tincidunt tortor
+                        lorem, eu consectetur nisi blandit eget. Donec facilisis dui nec mi venenatis, ac efficitur orci
+                        molestie. Maecenas ac felis tortor. Praesent ornare vehicula diam a malesuada. Nulla nec pharetra
+                        lectus, a dictum erat. Aliquam tincidunt augue vitae sapien pretium rhoncus. Aenean tincidunt orci
+                        quis urna vestibulum pharetra. Nam placerat leo sit amet urna pharetra, eget hendrerit nisl accumsan.
+                        Sed vulputate posuere sem. Aenean vel ex maximus, hendrerit enim quis, consequat ex.
+                    </p>
+
+                </div>
+                <div class="col-md-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sapien egestas, ornare sem nec, auctor
+                        purus. Proin mattis neque a ex feugiat rutrum. Nam ut facilisis sem. Suspendisse tincidunt tortor
+                        lorem, eu consectetur nisi blandit eget. Donec facilisis dui nec mi venenatis, ac efficitur orci
+                        molestie. Maecenas ac felis tortor. Praesent ornare vehicula diam a malesuada. Nulla nec pharetra
+                        lectus, a dictum erat. Aliquam tincidunt augue vitae sapien pretium rhoncus. Aenean tincidunt orci
+                        quis urna vestibulum pharetra. Nam placerat leo sit amet urna pharetra, eget hendrerit nisl accumsan.
+                        Sed vulputate posuere sem. Aenean vel ex maximus, hendrerit enim quis, consequat ex.
+                    </p>
+                    <p>
+                        Aliquam quam ligula, sollicitudin eget tellus in, suscipit aliquet libero. In quam metus, lobortis eu scelerisque id, aliquet
+                        eu arcu. Integer tempor suscipit elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        id erat in mi ultrices condimentum maximus non augue. Mauris at elit dignissim, luctus erat vitae,
+                        dictum libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce imperdiet risus
+                        et ipsum tempor molestie. Donec congue sem ut justo pretium commodo. Sed rutrum tellus mauris, vel
+                        accumsan quam gravida nec. Integer rhoncus, turpis in ultricies tempus, arcu nibh scelerisque nulla,
+                        nec tempus nulla purus et nisl. Suspendisse venenatis interdum ligula, tempus vehicula lorem tincidunt
+                        at.
+                    </p>
+                </div>
 
             </div>
-            <div class="col-md-8">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sapien egestas, ornare sem nec, auctor
-                    purus. Proin mattis neque a ex feugiat rutrum. Nam ut facilisis sem. Suspendisse tincidunt tortor lorem,
-                    eu consectetur nisi blandit eget. Donec facilisis dui nec mi venenatis, ac efficitur orci molestie. Maecenas
-                    ac felis tortor. Praesent ornare vehicula diam a malesuada. Nulla nec pharetra lectus, a dictum erat.
-                    Aliquam tincidunt augue vitae sapien pretium rhoncus. Aenean tincidunt orci quis urna vestibulum pharetra.
-                    Nam placerat leo sit amet urna pharetra, eget hendrerit nisl accumsan. Sed vulputate posuere sem. Aenean
-                    vel ex maximus, hendrerit enim quis, consequat ex.
-                </p>
-                <p>
-                    Aliquam quam ligula, sollicitudin eget tellus in, suscipit aliquet libero. In quam metus, lobortis eu scelerisque id, aliquet
-                    eu arcu. Integer tempor suscipit elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                    id erat in mi ultrices condimentum maximus non augue. Mauris at elit dignissim, luctus erat vitae, dictum
-                    libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce imperdiet risus et ipsum
-                    tempor molestie. Donec congue sem ut justo pretium commodo. Sed rutrum tellus mauris, vel accumsan quam
-                    gravida nec. Integer rhoncus, turpis in ultricies tempus, arcu nibh scelerisque nulla, nec tempus nulla
-                    purus et nisl. Suspendisse venenatis interdum ligula, tempus vehicula lorem tincidunt at.</p>
-            </div>
-
         </div>
-    </div>
+        <hr>
+        <div class="container fill" id="content3">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sapien egestas, ornare sem nec, auctor
+                        purus. Proin mattis neque a ex feugiat rutrum. Nam ut facilisis sem. Suspendisse tincidunt tortor
+                        lorem, eu consectetur nisi blandit eget. Donec facilisis dui nec mi venenatis, ac efficitur orci
+                        molestie. Maecenas ac felis tortor. Praesent ornare vehicula diam a malesuada. Nulla nec pharetra
+                        lectus, a dictum erat. Aliquam tincidunt augue vitae sapien pretium rhoncus. Aenean tincidunt orci
+                        quis urna vestibulum pharetra. Nam placerat leo sit amet urna pharetra, eget hendrerit nisl accumsan.
+                        Sed vulputate posuere sem. Aenean vel ex maximus, hendrerit enim quis, consequat ex.
+                    </p>
 
-    <div class="container fill" id="content3">
-        <div class="row align-items-center">
-            <div class="col-md-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sapien egestas, ornare sem nec, auctor
-                    purus. Proin mattis neque a ex feugiat rutrum. Nam ut facilisis sem. Suspendisse tincidunt tortor lorem,
-                    eu consectetur nisi blandit eget. Donec facilisis dui nec mi venenatis, ac efficitur orci molestie. Maecenas
-                    ac felis tortor. Praesent ornare vehicula diam a malesuada. Nulla nec pharetra lectus, a dictum erat.
-                    Aliquam tincidunt augue vitae sapien pretium rhoncus. Aenean tincidunt orci quis urna vestibulum pharetra.
-                    Nam placerat leo sit amet urna pharetra, eget hendrerit nisl accumsan. Sed vulputate posuere sem. Aenean
-                    vel ex maximus, hendrerit enim quis, consequat ex.
-                </p>
+                </div>
+                <div class="col-md-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sapien egestas, ornare sem nec, auctor
+                        purus. Proin mattis neque a ex feugiat rutrum. Nam ut facilisis sem. Suspendisse tincidunt tortor
+                        lorem, eu consectetur nisi blandit eget. Donec facilisis dui nec mi venenatis, ac efficitur orci
+                        molestie. Maecenas ac felis tortor. Praesent ornare vehicula diam a malesuada. Nulla nec pharetra
+                        lectus, a dictum erat. Aliquam tincidunt augue vitae sapien pretium rhoncus. Aenean tincidunt orci
+                        quis urna vestibulum pharetra. Nam placerat leo sit amet urna pharetra, eget hendrerit nisl accumsan.
+                        Sed vulputate posuere sem. Aenean vel ex maximus, hendrerit enim quis, consequat ex.
+                    </p>
+                    <p>
+                        Aliquam quam ligula, sollicitudin eget tellus in, suscipit aliquet libero. In quam metus, lobortis eu scelerisque id, aliquet
+                        eu arcu. Integer tempor suscipit elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                        id erat in mi ultrices condimentum maximus non augue. Mauris at elit dignissim, luctus erat vitae,
+                        dictum libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce imperdiet risus
+                        et ipsum tempor molestie. Donec congue sem ut justo pretium commodo. Sed rutrum tellus mauris, vel
+                        accumsan quam gravida nec. Integer rhoncus, turpis in ultricies tempus, arcu nibh scelerisque nulla,
+                        nec tempus nulla purus et nisl. Suspendisse venenatis interdum ligula, tempus vehicula lorem tincidunt
+                        at.
+                    </p>
+                    
+                </div>
 
             </div>
-            <div class="col-md-8">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sapien egestas, ornare sem nec, auctor
-                    purus. Proin mattis neque a ex feugiat rutrum. Nam ut facilisis sem. Suspendisse tincidunt tortor lorem,
-                    eu consectetur nisi blandit eget. Donec facilisis dui nec mi venenatis, ac efficitur orci molestie. Maecenas
-                    ac felis tortor. Praesent ornare vehicula diam a malesuada. Nulla nec pharetra lectus, a dictum erat.
-                    Aliquam tincidunt augue vitae sapien pretium rhoncus. Aenean tincidunt orci quis urna vestibulum pharetra.
-                    Nam placerat leo sit amet urna pharetra, eget hendrerit nisl accumsan. Sed vulputate posuere sem. Aenean
-                    vel ex maximus, hendrerit enim quis, consequat ex.
-                </p>
-                <p>
-                    Aliquam quam ligula, sollicitudin eget tellus in, suscipit aliquet libero. In quam metus, lobortis eu scelerisque id, aliquet
-                    eu arcu. Integer tempor suscipit elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-                    id erat in mi ultrices condimentum maximus non augue. Mauris at elit dignissim, luctus erat vitae, dictum
-                    libero. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce imperdiet risus et ipsum
-                    tempor molestie. Donec congue sem ut justo pretium commodo. Sed rutrum tellus mauris, vel accumsan quam
-                    gravida nec. Integer rhoncus, turpis in ultricies tempus, arcu nibh scelerisque nulla, nec tempus nulla
-                    purus et nisl. Suspendisse venenatis interdum ligula, tempus vehicula lorem tincidunt at.</p>
-            </div>
-
         </div>
-    </div>
-
+    </main>
     <!-- Footer -->
     <div class="footer bg-light">
         <div class="col-12">footer</div>
@@ -187,7 +205,6 @@
     <script src="/js/popper.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
     <!-- Own scrips -->
-
 
     <script src="/js/scripts.js"></script>
 

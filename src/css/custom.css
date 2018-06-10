@@ -1,3 +1,11 @@
+#corgi-head {
+  height: 50px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 1030; }
+
 html {
   position: relative;
   /* min-height: 100vh; */ }

@@ -1,6 +1,16 @@
 $body-bg: #f5f5f5;
 $primary:#162d50;
-$light : #e2dfdf;
+$light: #e2dfdf;
+$zindex-fixed: 1030 !default;
+#corgi-head {
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: $zindex-fixed;
+}
+
 html {
     position: relative;
     /* min-height: 100vh; */
