@@ -45,3 +45,4 @@ async function replaceImg() {
 }
 
 $(`#corgi-head`).on(`click`, replaceImg);
+
